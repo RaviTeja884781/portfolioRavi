@@ -1,0 +1,171 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.projects {
+    border: 0px solid black;
+    width: 1250px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.projects>p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: #735d78;
+}
+
+.project_1 {
+    display: flex;
+    width: fit-content;
+    align-content: center;
+}
+
+.project-react {
+    border: 1px dotted #219ebc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: aliceblue;
+}
+
+.project-react-1 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #219ebc;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-react-2 {
+    font-size: 20px;
+    text-indent: 10px;
+    margin-top: 5px;
+    color: #023047;
+    margin-bottom: 10px;
+}
+
+.project-react-3 {
+    font-size: 20px;
+    text-indent: 10px;
+    margin-top: 5px;
+    color: #023047;
+    margin-bottom: 10px;
+}
+
+.project-node {
+    border: 1px dotted #219ebc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+
+.project-node-1 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #219ebc;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-node-2 {
+    font-size: 20px;
+    text-indent: 10px;
+    margin-top: 5px;
+    color: #023047;
+    margin-bottom: 10px;
+}
+
+.project-output {
+    border: 0px solid black;
+    width: 1250px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.project-output >p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #219ebc;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-output-1 {
+    width:860px;
+    height: 450px;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-image: url(../../images/project/mern/git.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: mern 20s infinite;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+
+@keyframes mern {
+    20% {
+        background-image: url(../../images/project/mern/sup.png);
+    }
+
+    40% {
+        background-image: url(../../images/project/mern/news.png);
+    }
+
+    60% {
+        background-image: url(../../images/project/mern/covid.png);
+    }
+}
+
+.project-output-2 {
+    width:860px;
+    height: 450px;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-image: url(../../images//project/aced/proj1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: ace 20s infinite;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+
+@keyframes ace {
+    20% {
+        background-image: url(../../images//project/aced/proj2.jpg);
+    }
+
+    40% {
+        background-image: url(../../images//project/aced/proj3.jpg);
+    }
+
+    60% {
+        background-image: url(../../images//project/aced/proj4.jpg);
+    }
+    80% {
+        background-image: url(../../images//project/aced/proj5.jpg);
+    }
+    90% {
+        background-image: url(../../images//project/aced/proj6.jpg);
+    }
+    100%{
+        background-image: url(../../images//project/aced/proj7.jpg);
+    }
+}
