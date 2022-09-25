@@ -4,9 +4,9 @@ import NavBar from "./components/NavBar/NavBar";
 
 import Login from "./components/Forms/Login/Login";
 import Signup from "./components/Forms/Signup/Signup";
-import Profile from "./components/routes/Profile";
-import Education from "./components/routes/Education";
-import Projects from "./components/routes/Projects";
+import Profile from "./components/routes/Profile/Profile";
+import Education from "./components/routes/Education/Education";
+import Projects from "./components/routes/Project/Projects";
 
 function App() {
   return (

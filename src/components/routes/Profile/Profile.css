@@ -104,7 +104,7 @@
     display: inline-block;
     margin-right: 10px;
     border-radius: 20px;
-    background-image: url(../../images//profile_bg/img1.png);
+    background-image: url(../../../images//profile_bg/img1.png);
     background-size: contain;
     animation: slide 20s infinite;
     
@@ -112,23 +112,23 @@
 
 @keyframes slide {
     20% {
-        background-image: url(../../images//profile_bg/img2.png);
+        background-image: url(../../../images//profile_bg/img2.png);
     }
 
     40% {
-        background-image: url(../../images/profile_bg/img3.png);
+        background-image: url(../../../images/profile_bg/img3.png);
     }
 
     60% {
-        background-image: url(../../images//profile_bg/img4.png);
+        background-image: url(../../../images//profile_bg/img4.png);
     }
 
     80% {
-        background-image: url(../../images/profile_bg/img5.png);
+        background-image: url(../../../images/profile_bg/img5.png);
     }
 
     100% {
-        background-image: url(../../images/profile_bg/img6.png);
+        background-image: url(../../../images/profile_bg/img6.png);
     }
 }
 

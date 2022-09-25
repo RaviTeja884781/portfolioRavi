@@ -1,9 +1,9 @@
 import React from "react";
-import vscodes from "../../images/vscodes.png";
-import profile_nobg from "../../images/profile_pics/profile_nobg.png";
-import nodejs from "../../images/nodejs.png";
-import express from "../../images/express.png";
-import mern from "../../images/mern.png";
+import vscodes from "../../../images/vscodes.png";
+import profile_nobg from "../../../images/profile_pics/profile_nobg.png";
+import nodejs from "../../../images/nodejs.png";
+import express from "../../../images/express.png";
+import mern from "../../../images/mern.png";
 import "./Profile.css";
 
 const Profile = () => {
@@ -116,45 +116,6 @@ const Profile = () => {
           <img src={mern} alt="mern" />
         </div>
       </div>
-      {/* <div className="profile_goodat">
-        <p>Good knowledge At</p>
-        <div className="react">
-          <h2>React</h2>
-          <p>
-            Good Understanding at all react concepts like.ex.Class
-            Components,Function Components,props,states etc...
-          </p>
-          <p>Hooks:</p>
-          <ul>
-            <li>useState</li>
-            <li>useEffect</li>
-            <li>useContext</li>
-            <li>useReduser</li>
-            <li>useCallback</li>
-            <li>useMemeo</li>
-            <li>useRef</li>
-          </ul>
-          <p>React Third party Modules</p>
-          <ul>
-            <li>React-router-dom</li>
-            <li>Axios</li>
-            <li>React-hook-form</li>
-          </ul>
-        </div>
-        <div className="frontend">
-          <p>Java Script</p>
-          <p>Good At..</p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </div> */}
     </div>
   );
 };

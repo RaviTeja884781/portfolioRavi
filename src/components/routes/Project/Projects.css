@@ -106,66 +106,18 @@
 }
 
 .project-output-1 {
-    width:860px;
-    height: 450px;
     border: 0px solid black;
     border-radius: 15px;
-    background-image: url(../../images/project/mern/git.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    animation: mern 20s infinite;
-    margin-top: 20px;
-    margin-left: 150px;
-}
-
-
-@keyframes mern {
-    20% {
-        background-image: url(../../images/project/mern/sup.png);
-    }
-
-    40% {
-        background-image: url(../../images/project/mern/news.png);
-    }
-
-    60% {
-        background-image: url(../../images/project/mern/covid.png);
-    }
 }
 
 .project-output-2 {
-    width:860px;
-    height: 450px;
+    height: 650px;
     border: 0px solid black;
     border-radius: 15px;
-    background-image: url(../../images//project/aced/proj1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: ace 20s infinite;
-    margin-top: 20px;
-    margin-left: 150px;
 }
 
-
-@keyframes ace {
-    20% {
-        background-image: url(../../images//project/aced/proj2.jpg);
-    }
-
-    40% {
-        background-image: url(../../images//project/aced/proj3.jpg);
-    }
-
-    60% {
-        background-image: url(../../images//project/aced/proj4.jpg);
-    }
-    80% {
-        background-image: url(../../images//project/aced/proj5.jpg);
-    }
-    90% {
-        background-image: url(../../images//project/aced/proj6.jpg);
-    }
-    100%{
-        background-image: url(../../images//project/aced/proj7.jpg);
-    }
+.img img{
+    width: 650px;
+    height: 550px;
 }
+
